@@ -1,0 +1,126 @@
+body {
+	margin:0;
+	background: black;
+	background-image: url(backgound.jpg);
+	background-repeat: repeat-x;
+
+}
+html{
+	color:#333;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	direction: ltr;
+}
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+}
+h2{
+	margin: 0.2em 0;
+	font-size: 2em;
+	font-weight: 300;
+	color: #fff;
+
+}
+
+.d-header{
+	width:100%;
+	position:absolute;
+	top: 0;
+	z-index: 900;
+	background-color: #3a3a3a;
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+	margin-bottom: 20px;
+
+}
+.container{
+	margin-left:0px;
+	margin-right: 0px;
+	max-width: none;
+	width: auto;
+}
+
+.logomark{
+	float: left;
+	padding:3.5px 4px 3px 3px;
+}
+.titleHeader{
+	padding:15px 16px 12px 12px;
+	color: white;
+	font-weight: bold;
+	font-weight: 900;
+}
+
+.titleContent{
+	width: 30%;
+	float: left;
+}
+
+.HeaderNavBar{
+	float: right !important;
+	color: white;
+	padding-right:3%;
+	font-weight: bold;
+	font-weight: 900;
+}
+.HeaderItems{
+	height: 100%;
+	margin: 0 !important;
+
+}
+.HeaderLi{
+	list-style:none;
+	line-height: 45px;
+	height: 30;
+	padding: 7px 10px 3px 10px;
+	position: relative;
+	float: left;
+
+}
+
+.HeaderLi > a{
+	text-decoration: none;
+	color: white;
+}
+
+li.HeaderLi:hover {
+    background-color: #3498DB;
+
+}
+
+
+
+.Content{
+	margin-top: 50px;
+	margin:auto;
+	display:block;
+	width: 80%;
+}
+
+.frm{
+	padding: 7% 16px 12px 12px;
+}
+.frmContent{
+	height: 100%;
+	background-color: #fafafa;
+	border-radius: 8px;
+	-webkit-box-shadow: -9px -9px 24px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: -9px -9px 24px -6px rgba(0,0,0,0.75);
+	box-shadow: -9px -9px 24px -6px rgba(0,0,0,0.75);
+}
+.frmTitle{
+	padding:20px 16px 12px 12px;
+	background-color: #3498DB;
+	border-top: 1px solid #70B6E5;
+	border-bottom: 5px solid #2372A7;
+	border-radius: 5px 5px 0 0;
+}
+.frmFields{
+	padding:16px 16px 12px 12px;
+}
+
+.form-check-label{
+	margin-right: 10px;
+	font-size: 1.3em;
+}

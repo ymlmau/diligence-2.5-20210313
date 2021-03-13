@@ -1,0 +1,12 @@
+Problemas de Seguridad Diligence V.1.0
+
+1. Se puede acceder a las paginas de consultas sin necesidad de loguearse.
+
+2. Se pueden hacer consultas y la informacion no se guarda en el Log de reportes.
+
+3. Las contrasenas no estan encriptadas en la base de datos.
+
+4. La informacion del usuario no es limpiada es decir puede modificar datos de la base de datos desde la interfaz.
+
+5. Hay un hueco que permite eliminar datos y ver la informacion directamente desde la base de datos.
+

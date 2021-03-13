@@ -1,0 +1,23 @@
+[Sat, 21 Jul 2018 12:41:19 +0000] Error 1200: Usuario o Clave incorrecta, favor verifique
+[Sat, 21 Jul 2018 12:47:19 +0000] Error 1200: Debe Enviar el usuario.
+[Sat, 21 Jul 2018 13:02:33 +0000] Error 1200: Debe enviar la Cédula con el Folio| Asiento | Ficha.
+[Sat, 21 Jul 2018 14:28:17 +0000] Error 1200: Usuario o Clave incorrecta, favor verifique
+[Sat, 21 Jul 2018 14:29:38 +0000] Error 1200: Usuario o Clave incorrecta, favor verifique
+[Sat, 21 Jul 2018 14:30:47 +0000] Error 1200: Usuario o Clave incorrecta, favor verifique
+[Sat, 21 Jul 2018 14:32:09 +0000] Error 1200: Usuario o Clave incorrecta, favor verifique
+[Sat, 21 Jul 2018 14:40:04 +0000] Error 1200: Usuario o Clave incorrecta, favor verifique
+[Sat, 21 Jul 2018 16:10:31 +0000] Error 1200: Debe enviar la cédula en formato correcto.
+[Mon, 23 Jul 2018 22:10:45 +0000] Error 1200: Debe enviar la cédula en formato correcto. La inicial no es válida.
+[Mon, 23 Jul 2018 22:18:56 +0000] Error 1200: Prueba
+[Mon, 23 Jul 2018 22:19:43 +0000] Error 1200: Prueba
+[Mon, 23 Jul 2018 22:20:10 +0000] Error 1200:  and (cedula = '1-1-193'  or cedula = '100001000193')  limit 1000 
+[Mon, 23 Jul 2018 22:20:30 +0000] Error 1200:  select seguro, cedula, nombre, razonsocial, patrono, campo6, tel1, tel2, fecha, salario from datos where 1=1  and (cedula = '1-1-193'  or cedula = '100001000193')  limit 1000 
+[Tue, 24 Jul 2018 00:07:47 +0000] Error 1200: Debe enviar el usuario.
+[Thu, 20 Aug 2020 07:11:00 +0200] Error 1200: Debe enviar la cédula en formato correcto. La inicial no es válida.
+[Thu, 20 Aug 2020 07:11:30 +0200] Error 1200: Usuario o Clave incorrecta, favor verifique
+[Thu, 20 Aug 2020 07:11:59 +0200] Error 1200: Debe enviar el pasaporte.
+[Thu, 20 Aug 2020 07:12:05 +0200] Error 1200: Debe enviar el pasaporte.
+[Thu, 20 Aug 2020 07:12:44 +0200] Error 1200: Usuario o Clave incorrecta, favor verifique
+[Thu, 20 Aug 2020 07:14:23 +0200] Error 1200: Debe enviar la cédula en formato correcto. La inicial no es válida.
+[Thu, 20 Aug 2020 07:14:26 +0200] Error 1200: Debe enviar la cédula en formato correcto. La inicial no es válida.
+[Thu, 20 Aug 2020 07:14:51 +0200] Error 1200: Debe enviar la cédula en formato correcto. La inicial no es válida.

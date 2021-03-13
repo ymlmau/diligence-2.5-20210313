@@ -1,0 +1,45 @@
+body{
+	color: #000099;
+	font-family:Verdana,Arial, Helvetica,sans-serif;
+	font-size:0.8em;
+	font-weigth:500
+	background:#FFF8EC;
+}
+
+H1{
+	font-family:Verdana,Arial, Helvetica,sans-serif;
+	font-size:2em;
+	font-weigth:700
+}
+
+H2{
+	font-family:Verdana,Arial, Helvetica,sans-serif;
+	font-size:1.75em;
+	font-weigth:700
+}
+
+H3{
+	font-family:Verdana,Arial, Helvetica,sans-serif;
+	font-size:1.58em;
+	font-weigth:500
+}
+
+TABLE{
+	background-color:#FFEFD5;
+}
+
+TH{
+	color: White;
+	font-family:Verdana,Arial, Helvetica,sans-serif;
+	font-size:0.9em;
+	font-weigth:500
+	font: bold;
+	background:#804D19;
+}
+
+TD{
+	color: Navy;
+	font-family:Verdana,Arial, Helvetica,sans-serif;
+	font-size:0.9em;
+	font-weigth:500
+}

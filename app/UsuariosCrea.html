@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+</head>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<body>
+	<div class="d-header" >
+		<div class="container">
+			<div class="titleContent">
+				<a class="logomark" href="#" >
+					<img src="image/image.png" border="0" width="50" height="20">
+				</a>
+				<div class="titleHeader" >MOLLAH, MORGAN ABOGADOS</div>
+			</div>
+		</div>
+		<div class="HeaderNavBar">
+		<ul class="HeaderItems">
+			<li class="HeaderLi" >
+				<a href="consultanombre.php" >
+					Consultar Nombre
+				</a>
+			</li>
+			<li class="HeaderLi" >
+				<a lang="es" href="consultacedula.php" >
+					Consultar Cedula
+				</a>
+			</li>
+			<li class="HeaderLi" >
+				<a href="subircsv.php" >
+					Cargar CSV
+				</a>
+			</li>
+			<li class="HeaderLi" >
+				<a href="UsuariosCrea.html" >
+					Crea Usuario
+				</a>
+			</li>
+			<li class="HeaderLi" >
+				<a href="index.php" >
+					Salir
+				</a>
+			</li>
+		</ul>
+	</div>
+	
+	</div>
+	<div class="Content">
+		<div class="frm">
+			<div class="frmContent">
+				<div class="frmTitle" >
+					<h2>Creación de Usuario</h2>
+				</div>
+				<div class="frmFields" >
+					<form method="post" action="UsuariosCrea.php">
+						Nombre: <br />
+						<input type="text"  name="Nombre" value="" required="required"><br /> 
+						Usuario: <br />
+						<input type="text" name="Usuario" value="" required="required"><br /> 
+						Contraseña: <br />
+						<input type="password" name="Contrasenia" value="" required="required"><br /> 
+						Repetir Contraseña: <br />
+						<input type="password" name="ReContraseña" value="" required="required"><br /> 
+						<br />
+						<input type="submit" value="Enviar"><br /> 
+					</form>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
